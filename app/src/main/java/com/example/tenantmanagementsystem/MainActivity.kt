@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.tenantmanagementsystem.databinding.ActivityMainBinding
+import com.example.tenantmanagementsystemgroup.Tenant
 
 class MainActivity : AppCompatActivity() {
 
