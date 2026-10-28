@@ -1,18 +1,19 @@
 plugins {
-        alias(libs.plugins.android.application)
+    alias(libs.plugins.android.application)
     // NEW: switch Safe Args on for this app.
     // It must come BELOW the android.application line
-       id("androidx.navigation.safeargs.kotlin")
+    id("androidx.navigation.safeargs.kotlin")
 }
 
 android {
     namespace = "com.example.tenantmanagementsystem"
     compileSdk {
         version = release(37)
-        buildFeatures {
-            viewBinding = true
-            dataBinding = true
-        }
+    }
+
+    buildFeatures {
+        viewBinding = true
+        dataBinding = true
     }
 
     defaultConfig {
